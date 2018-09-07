@@ -46,7 +46,7 @@ for j in codon:
     for k, v in d.items():
         if j == k:
             #k1[k] = k
-            k1[v] = 1 + k1.get(v,0)
+            k1[v] = 1 + k1.get(v, 0)
             d1[k] = v
 
 #print the user input and its count with the dictionary value
