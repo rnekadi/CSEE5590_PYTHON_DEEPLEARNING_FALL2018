@@ -2,6 +2,7 @@
 # and another list of students who are attending class "Web Application".Find the list of students
 # who are attending list of student who are attending Python class but not Web Application
 
+# Authror Raju Nekadi
 
 # Defining List for Python Class
 
@@ -25,5 +26,5 @@ for p in Python:
         pythonNotWebApp.append(p)
 
 
-print(pythonNotWebApp)
+print('The student who are addenting Python not WebApplication:', pythonNotWebApp)
 
