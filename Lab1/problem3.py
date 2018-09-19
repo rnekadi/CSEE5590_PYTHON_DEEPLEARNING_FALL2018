@@ -25,6 +25,8 @@ for p in Python:
     if p not in WebApp:
         pythonNotWebApp.append(p)
 
+# Driver Program
 
-print('The student who are addenting Python not WebApplication:', pythonNotWebApp)
+if __name__ == "__main__":
+    print('The student who are addenting Python not WebApplication:', pythonNotWebApp)
 
