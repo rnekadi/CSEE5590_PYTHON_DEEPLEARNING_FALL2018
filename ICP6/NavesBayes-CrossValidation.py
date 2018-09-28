@@ -4,9 +4,12 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
+from sklearn.cross_validation import train_test_split
+from sklearn.naive_bayes import GaussianNB
 from sklearn import metrics
 import pandas as pd
+
+# sklearn.naive_bayes.GaussianNB(priors=None, var_smoothing=1e-09)
 
 # Importing the dataset
 
@@ -31,8 +34,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20)
 
 # Fitting Naive Bayes Classification to the Training set with linear kernel
 
-from sklearn.naive_bayes import GaussianNB
-
 nvclassifier = GaussianNB()
 nvclassifier.fit(X_train, y_train)
 
@@ -50,15 +51,18 @@ y_compare = np.vstack((y_test, y_pred)).T
 print(y_compare[:5, :])
 
 
-
-print('Accuracy of SVM classifier on training set: {:.2f}'
+# Accuracy of NavesBayes on Training Sets
+print('Accuracy of Naive Bayes classifier on training set: {:.2f}'
      .format(nvclassifier.score(X_train, y_train)))
-print('Accuracy of SVM classifier on test set: {:.2f}'
+
+# Accuracy of NavesBayes on Testing Sets
+print('Accuracy of Naive Bayes classifier on test set: {:.2f}'
      .format(nvclassifier.score(X_test, y_test)))
+
 
 # print the accuracy score of predicted and actual values on test set
 
-print('\n\nAccuracy of the Naive Bayes Classification is: ', metrics.accuracy_score(y_test, y_pred))
+print('\n\nAccuracy of the Naive Bayes Classification is on Test Data Prediction: ', metrics.accuracy_score(y_test, y_pred))
 
 # Plot the Test Prediction , Test Value on Graph
 

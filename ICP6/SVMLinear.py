@@ -4,8 +4,13 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
 import pandas as pd
+
+# sklearn.svm.SVC(C=1.0, kernel=’rbf’, degree=3, gamma=’auto_deprecated’, coef0=0.0, shrinking=True,
+# probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=-1,
+# decision_function_shape=’ovr’, random_state=None)
 
 # Importing the dataset
 
@@ -19,19 +24,18 @@ dataset.head()
 
 # Spliting the dataset in independent and dependent variables
 
-X = dataset.iloc[:, :2].values # taking only first 2 features for our prediction
+X = dataset.iloc[:, :4].values  # taking only all 4 features for our prediction
 Y = dataset['class'].values
 
 
 # Splitting the dataset into the Training set and Test set
 
-from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.20)
+
 
 # Fitting SVC Classification to the Training set with linear kernel
 
-from sklearn.svm import SVC
-svc_linear = SVC(kernel='linear', C=1, gamma=0.5).fit(X_train, y_train)
+svc_linear = SVC(kernel='linear', C=1, gamma=0.1).fit(X_train, y_train)
 
 
 # Accuracy of SVM Linear kernel on Training set
@@ -39,14 +43,14 @@ svc_linear = SVC(kernel='linear', C=1, gamma=0.5).fit(X_train, y_train)
 print('\n\nAccuracy of the SVM Linear Kernel Classification is: ', svc_linear.score(X_train, y_train))
 
 
-# Accuracy of SVM RBF Kernel on Test Set
+# Accuracy of SVM Linear Kernel on Test Set
 
 print('\n\nAccuracy of the SVM Linear Kernel Classification is: ', svc_linear.score(X_test, y_test))
 
 # Fitting SVC Classification to the Training set with rbf  kernel
 
-from sklearn.svm import SVC
-svc_rbf = SVC(kernel='rbf', C=1, gamma=0.5).fit(X_train, y_train)
+
+svc_rbf = SVC(kernel='rbf', C=1, gamma=0.1).fit(X_train, y_train)
 
 
 # Accuracy of SVM Linear kernel on Training set
