@@ -24,8 +24,8 @@ label_col = 'price'
 print(kc_data.describe())
 
 
-kc_x_train, kc_x_valid, kc_y_train, kc_y_valid = train_test_split(kc_data.iloc[:,0:18], kc_data.iloc[:,18],
-                                                    test_size=0.3, random_state=87)
+kc_x_train, kc_x_valid, kc_y_train, kc_y_valid = train_test_split(kc_data.iloc[:,0:18], kc_data.iloc[:, 18],
+                                                                  test_size=0.3, random_state=87)
 np.random.seed(155)
 def norm_stats(df1, df2):
     dfs = df1.append(df2)

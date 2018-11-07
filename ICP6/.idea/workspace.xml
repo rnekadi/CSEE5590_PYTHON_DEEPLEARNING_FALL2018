@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e9bff8-c575-4093-83d0-fbd1e4095f56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ICP5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP9/kc_house_regression_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP9/kc_house_regression_new.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +18,24 @@
     <session id="1346800902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -51,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NavesBayes-CrossValidation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="540">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
                 <element signature="e#57#75#0" expanded="true" />
               </folding>
@@ -70,6 +74,18 @@
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#89#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NaviesBayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="62" selection-start-line="62" selection-end-line="62" selection-end-column="48" />
+              <folding>
+                <element signature="e#57#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +106,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="23" />
+    <option name="x" value="59" />
+    <option name="y" value="81" />
     <option name="width" value="1400" />
     <option name="height" value="770" />
   </component>
@@ -103,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +130,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +240,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="23" width="1400" height="770" extended-state="0" />
+    <frame x="59" y="81" width="1400" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -252,17 +269,10 @@
     <entry file="file://$PROJECT_DIR$/iris.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NaviesBayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NavesBayes-CrossValidation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="540">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
             <element signature="e#57#75#0" expanded="true" />
           </folding>
@@ -275,6 +285,16 @@
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#89#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NaviesBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="62" selection-start-line="62" selection-end-line="62" selection-end-column="48" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
