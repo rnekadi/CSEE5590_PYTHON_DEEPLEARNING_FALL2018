@@ -1,5 +1,4 @@
-from keras.layers import Input, Dense, Embedding, LSTM
-from keras.layers import Reshape, Flatten, Dropout, Concatenate
+from keras.layers import  Dense, Embedding, LSTM
 from keras.optimizers import Adam
 from keras.models import Model
 from keras.models import Sequential
@@ -33,11 +32,8 @@ drop = 0.5
 epochs = 20
 batch_size = 80
 
-# this returns a tensor
+# Creating the Model
 print("Creating Model...")
-#inputs = Input(shape=(sequence_length,), dtype='int32')
-#embedding = Embedding(input_dim=vocabulary_size, output_dim=embedding_dim, input_length=sequence_length)(inputs)
-#reshape = Reshape((sequence_length, embedding_dim, 1))(embedding)
 
 
 model = Sequential()
