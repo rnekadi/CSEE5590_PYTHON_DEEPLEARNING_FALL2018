@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 batch_size = 32
 num_classes = 10
 epochs = 15
-data_augmentation = False
 num_predictions = 20
 
 
@@ -68,9 +67,6 @@ model.summary()
 
 # Model Fitting
 history = model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs, validation_data=(x_test, y_test),shuffle=True)
-
-
-
 
 
 
