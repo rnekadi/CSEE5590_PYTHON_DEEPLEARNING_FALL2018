@@ -20,13 +20,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="neg" value="2" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -43,20 +43,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
+            <state relative-caret-position="1292">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="90" column="69" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,17 +271,20 @@
     <entry file="file://$PROJECT_DIR$/data/rt-polarity.neg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="90" column="69" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
