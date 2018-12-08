@@ -52,8 +52,7 @@ x_test = x_test.reshape((len(x_test), np.prod(x_test.shape[1:])))
 ENCODE_DIR = os.getcwd()
 tensorboard = TensorBoard(log_dir='ENCODE_DIR', histogram_freq=0,
                          write_graph=True, write_images=False)
-
-autoencoder.fit(x_train, x_train,
+history=autoencoder.fit(x_train, x_train,
                 epochs=50,
                 batch_size=256,
                 shuffle=True,
@@ -100,3 +99,16 @@ with open("model.json", "w") as json_file:
 # serialize weights to HDF5
 autoencoder.save_weights("model.h5")
 print("Saved model to disk")
+
+
+fig1 = plt.figure()
+plt.plot(history.history['loss'], 'r', linewidth=3.0)
+plt.plot(history.history['val_loss'], 'b', linewidth=3.0)
+plt.legend(['Training loss', 'Validation Loss'], fontsize=18)
+plt.xlabel('Epochs ', fontsize=16)
+plt.ylabel('Loss', fontsize=16)
+plt.title('Loss Curves : ', fontsize=16)
+fig1.savefig('loss_lstm.png')
+
+
+
